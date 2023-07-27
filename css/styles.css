@@ -1,6 +1,49 @@
+/* ====== VARIABLES ======= */
+
+/* ====== COMMON STYLES ======= */
 .list li {
   list-style-type: none;
 }
 .link {
   text-decoration: none;
 }
+button {
+  cursor: pointer;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* ====== HEADER ======= */
+.logotype-blue {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 116.667%;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--iris, #4d5ae5);
+}
+.logotype {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 116.667%;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--navyblue, #2e2f42);
+}
+.menu-link {
+  /* Body Medium */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.32px;
+  color: var(--navyblue, #2e2f42);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+/* ====== HEADER ======= */
