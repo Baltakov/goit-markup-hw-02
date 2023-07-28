@@ -1,5 +1,9 @@
 /* ====== VARIABLES ======= */
-
+:root {
+  --primary-color: #2e2f42;
+  --primary-font: "Raleway", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
+}
 /* ====== COMMON STYLES ======= */
 .list li {
   list-style-type: none;
@@ -11,11 +15,11 @@ button {
   cursor: pointer;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--secondary-font);
 }
 /* ====== HEADER ======= */
 .logotype-blue {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--primary-font);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -25,14 +29,14 @@ body {
   color: var(--iris, #4d5ae5);
 }
 .logotype {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--primary-font);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
   line-height: 116.667%;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  color: var(--navyblue, #2e2f42);
+  color: var(--primary-color);
 }
 .menu-link {
   /* Body Medium */
@@ -40,7 +44,7 @@ body {
   font-weight: 500;
   line-height: 150%;
   letter-spacing: 0.32px;
-  color: var(--navyblue, #2e2f42);
+  color: var(--primary-color);
 }
 .menu-link:hover,
 .menu-link:focus {
