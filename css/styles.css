@@ -16,6 +16,8 @@ button {
 }
 body {
   font-family: var(--secondary-font);
+  color: #434455;
+  background-color: #ffffff;
 }
 /* ====== HEADER ======= */
 .logotype-blue {
