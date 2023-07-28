@@ -23,7 +23,7 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 116.667%;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   color: var(--iris, #4d5ae5);
@@ -33,7 +33,7 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 116.667%;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
   color: var(--primary-color);
@@ -41,8 +41,9 @@ body {
 .menu-link {
   /* Body Medium */
   font-size: 16px;
+  font-style: normal;
   font-weight: 500;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.32px;
   color: var(--primary-color);
 }
