@@ -65,8 +65,31 @@ body {
 .menu-link:focus {
   color: #404bbf;
 }
-/* ====== HEADER ======= */
-
+/* ====== SECTION1 ======= */
+.hero {
+  background-color: var(--primary-color);
+}
+.topic {
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.top-button {
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--secondary-color);
+  color: #ffffff;
+}
+.top-button:hover,
+.top-button:focus {
+  background-color: #404bbf;
+}
 /* ====== FOOTER ======= */
 .page-footer {
   background-color: var(--primary-color);
