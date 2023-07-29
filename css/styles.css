@@ -1,6 +1,7 @@
 /* ====== VARIABLES ======= */
 :root {
   --primary-color: #2e2f42;
+  --secondary-color: #4d5ae5;
   --primary-font: "Raleway", sans-serif;
   --secondary-font: "Roboto", sans-serif;
 }
@@ -28,9 +29,9 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  color: var(--iris, #4d5ae5);
+  color: var(--secondary-color);
 }
-.logotype {
+.logotype-dark {
   font-family: var(--primary-font);
   font-size: 18px;
   font-style: normal;
@@ -40,6 +41,17 @@ body {
   text-transform: uppercase;
   color: var(--primary-color);
 }
+.logotype-white {
+  font-family: var(--primary-font);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
 .menu-link {
   /* Body Medium */
   font-size: 16px;
@@ -54,3 +66,11 @@ body {
   color: #404bbf;
 }
 /* ====== HEADER ======= */
+
+/* ====== FOOTER ======= */
+.page-footer {
+  background-color: var(--primary-color);
+}
+.description {
+  color: #ffffff;
+}
