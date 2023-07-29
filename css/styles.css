@@ -90,10 +90,37 @@ body {
 .top-button:focus {
   background-color: #404bbf;
 }
+/* ====== SECTION2 ======= */
+.values {
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+.description {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* ====== SECTION3 ======= */
+.top-doing {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--primary-color);
+}
+/* ====== SECTION4 ======= */
+.team {
+  background-color: #f4f4fd;
+}
 /* ====== FOOTER ======= */
 .page-footer {
   background-color: var(--primary-color);
 }
-.description {
+.description-footer {
   color: #ffffff;
 }
