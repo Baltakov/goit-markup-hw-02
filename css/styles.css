@@ -2,17 +2,20 @@
 :root {
   --primary-color: #2e2f42;
   --secondary-color: #4d5ae5;
+  --color-txt-button: #f4f4fd;
+  --color-portfolio: #434455;
   --primary-font: "Raleway", sans-serif;
   --secondary-font: "Roboto", sans-serif;
 }
 /* ====== COMMON STYLES ======= */
 .list li {
-  list-style-type: none;
+  list-style: none;
 }
 .link {
   text-decoration: none;
 }
-button {
+button,
+portfolio-button {
   cursor: pointer;
 }
 body {
@@ -140,4 +143,32 @@ body {
   color: #ffffff;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+/* ====== PORTFOLIO ======= */
+.portfolio-button {
+  color: var(--secondary-color);
+  background-color: var(--color-txt-button);
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.portfolio-list {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-color);
+}
+.portfolio-type {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-portfolio);
 }
