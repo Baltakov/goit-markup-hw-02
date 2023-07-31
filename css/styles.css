@@ -52,7 +52,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #f4f4fd;
 }
 
 .menu-link {
@@ -64,8 +64,16 @@ body {
   letter-spacing: 0.32px;
   color: var(--primary-color);
 }
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--color-portfolio);
+}
 .menu-link:hover,
-.menu-link:focus {
+.menu-link:focus,
+.contact-link:hover,
+.contact-link:focus {
   color: #404bbf;
 }
 /* ====== SECTION1 ======= */
@@ -140,7 +148,7 @@ body {
   background-color: var(--primary-color);
 }
 .description-footer {
-  color: #ffffff;
+  color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
